@@ -1,1 +1,11 @@
-/.idea/
+# Default ignored files
+/shelf
+/workspace.xml
+
+# IDE
+.idea
+*.iml
+
+# Java
+/out
+/target

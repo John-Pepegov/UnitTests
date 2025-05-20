@@ -1,3 +1,5 @@
+package logic;
+
 public class Rectangle {
 
     double length, width;

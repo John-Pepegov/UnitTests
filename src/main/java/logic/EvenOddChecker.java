@@ -15,5 +15,4 @@ public class EvenOddChecker {
             return false;
         }
     }
-
 }

@@ -15,8 +15,12 @@ public class RectangleTestNGTest {
     }
 
     @Test
-    public void testConstructorAndGetters() {
+    public void testConstructorSetsLength() {
         assertEquals(rectangle.getLength(), 5.0, 0.001);
+    }
+
+    @Test
+    public void testConstructorSetsWidth() {
         assertEquals(rectangle.getWidth(), 3.0, 0.001);
     }
 

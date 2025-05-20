@@ -3,7 +3,8 @@ package junit;
 import logic.Rectangle;
 import org.junit.Before;
 import org.junit.Test;
-import static org.junit.Assert.*;
+
+import static org.junit.Assert.assertEquals;
 
 public class RectangleJUnitTest {
 
@@ -15,8 +16,12 @@ public class RectangleJUnitTest {
     }
 
     @Test
-    public void testConstructorAndGetters() {
+    public void testConstructorSetsLength() {
         assertEquals(5.0, rectangle.getLength(), 0.001);
+    }
+
+    @Test
+    public void testConstructorSetsWidth() {
         assertEquals(3.0, rectangle.getWidth(), 0.001);
     }
 
